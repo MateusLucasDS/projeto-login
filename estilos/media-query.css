@@ -11,7 +11,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-    body{
+    html, body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
@@ -29,6 +29,7 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width: 992px){

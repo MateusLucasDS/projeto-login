@@ -42,6 +42,14 @@ section#login{
     transition-timing-function: ease;
 }
 
+section#login h1{
+    text-align: center;
+}
+
+section#login p{
+    font-size: 0.8em;
+}
+
 div#imagem{
     display: block;
     background-image: url(../imagens/metal.jpg);
@@ -61,14 +69,28 @@ div.campo{
     display: block;
     background-color: #5f2c82;
     margin: 5px 0px;
-    padding-bottom: 4px;
     height: 40px;
     border: 2px solid #5f2c82;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+div.campo input{
+    width: calc(100% - 44px);
+    height: 100%;
+    border-radius: 8px;
+    padding-top: 16px;
+    transform: translateY(-2px);
 }
 
 div.campo label{
     display: none;
+}
+
+div.campo span{
+    padding-top: 1.5px;
+    width: 40px;
+    color: white;
+    font-size: 2em;
 }
 
 form input[type=submit] {
